@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FA540A2-CFCA-45F4-B15B-65C6F495D5D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Web</RootNamespace>
+    <AssemblyName>Enterprise.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager, Version=7.3.2.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UserControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\UserControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\api\ValidatecodeApi.aspx" />
+    <Content Include="admin\index.aspx" />
+    <Content Include="admin\js\json2.js" />
+    <Content Include="admin\js\product.js" />
+    <Content Include="admin\js\wangEditor\css\wangEditor.css" />
+    <Content Include="admin\js\wangEditor\css\wangEditor.min.css" />
+    <Content Include="admin\js\wangEditor\fonts\icomoon.svg" />
+    <Content Include="admin\js\wangEditor\js\wangEditor.min.js" />
+    <Content Include="admin\LogIn.aspx" />
+    <Content Include="admin\newsedit.aspx" />
+    <Content Include="admin\newslist.aspx" />
+    <Content Include="admin\productedit.aspx" />
+    <Content Include="admin\productlist.aspx" />
+    <Content Include="admin\api\productApi.aspx" />
+    <Content Include="admin\Useredit.aspx" />
+    <Content Include="admin\UserList.aspx" />
+    <Content Include="css\common.css" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="fonts\icomoon.svg" />
+    <Content Include="index.html" />
+    <Content Include="js\getUrlParam.js" />
+    <Content Include="js\JQajax.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\layer\extend\layer.ext.js" />
+    <Content Include="js\layer\layer.js" />
+    <Content Include="js\layer\skin\default\icon-ext.png" />
+    <Content Include="js\layer\skin\default\icon.png" />
+    <Content Include="js\layer\skin\default\loading-0.gif" />
+    <Content Include="js\layer\skin\default\loading-1.gif" />
+    <Content Include="js\layer\skin\default\loading-2.gif" />
+    <Content Include="js\layer\skin\espresso\close.png" />
+    <Content Include="js\layer\skin\espresso\icon.png" />
+    <Content Include="js\layer\skin\espresso\style.css" />
+    <Content Include="js\layer\skin\layer.css" />
+    <Content Include="js\layer\skin\layer.ext.css" />
+    <Content Include="libs\AspNetPager.dll" />
+    <Content Include="libs\UserControl.dll" />
+    <Content Include="UCL\UserControl.dll" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\api\uploadImgApi.ashx.cs">
+      <DependentUpon>uploadImgApi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\api\ValidatecodeApi.aspx.cs">
+      <DependentUpon>ValidatecodeApi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\api\ValidatecodeApi.aspx.designer.cs">
+      <DependentUpon>ValidatecodeApi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\CommonWebPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\newsedit.aspx.cs">
+      <DependentUpon>newsedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\newsedit.aspx.designer.cs">
+      <DependentUpon>newsedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\newslist.aspx.cs">
+      <DependentUpon>newslist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\newslist.aspx.designer.cs">
+      <DependentUpon>newslist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\productedit.aspx.cs">
+      <DependentUpon>productedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\productedit.aspx.designer.cs">
+      <DependentUpon>productedit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\productlist.aspx.cs">
+      <DependentUpon>productlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\productlist.aspx.designer.cs">
+      <DependentUpon>productlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\api\categoryApi.ashx.cs">
+      <DependentUpon>categoryApi.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\api\productApi.aspx.cs">
+      <DependentUpon>productApi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\api\productApi.aspx.designer.cs">
+      <DependentUpon>productApi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Useredit.aspx.cs">
+      <DependentUpon>Useredit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Useredit.aspx.designer.cs">
+      <DependentUpon>Useredit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\admin.Master" />
+    <Content Include="admin\api\categoryApi.ashx" />
+    <Content Include="js\layer\skin\espresso\.DS_Store" />
+    <Content Include="fonts\icomoon.eot" />
+    <Content Include="fonts\icomoon.ttf" />
+    <Content Include="fonts\icomoon.woff" />
+    <Content Include="admin\js\wangEditor\css\wangEditor.less" />
+    <Content Include="admin\js\wangEditor\fonts\icomoon.eot" />
+    <Content Include="admin\js\wangEditor\fonts\icomoon.ttf" />
+    <Content Include="admin\js\wangEditor\fonts\icomoon.woff" />
+    <Content Include="admin\api\uploadImgApi.ashx" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\images\uploadImg\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.BLL\Enterprise.BLL.csproj">
+      <Project>{6b2e4dea-2544-4a1f-b656-016c1e1ea772}</Project>
+      <Name>Enterprise.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Common\Enterprise.Common.csproj">
+      <Project>{74cbed4a-5b23-4def-87c9-ff844e7ca4a0}</Project>
+      <Name>Enterprise.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model\Enterprise.Model.csproj">
+      <Project>{2264cc20-5cf8-4ca0-9246-d7e4654b4717}</Project>
+      <Name>Enterprise.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>
+          </DevelopmentServerVPath>
+          <IISUrl>http://localhost:61203/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

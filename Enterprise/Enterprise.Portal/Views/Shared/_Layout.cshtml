@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+    <title>xxx公司首页</title>
+    @RenderSection("head", true)
+    <link href="/css/HituxBlue/common.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
+    <script type="text/javascript" src="/images/iepng/iepngfix_tilebg.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!--head start-->
+        <div id="head">
+
+            <!--top start -->
+            <div class="top">
+                <div class="TopInfo">
+                    <div class="link"><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://127.0.0.1/');" href="#">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://127.0.0.1/','慧谷动力-专注精品源码，尊享顶级服务！')">加入收藏</a> | <a href="/Sitemap/">网站地图</a></div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="TopLogo">
+                    <div class="logo"><a href="/"><img src="/images/up_images/2013222145444.png" alt="慧谷动力-专注精品源码，尊享顶级服务！" /></a></div>
+                    <div class="tel">
+                        <p class="telW">全国服务热线</p>
+                        <p class="telN">400-888-888</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--top end-->
+            <!--nav start-->
+            <div id="NavLink">
+                <div class="NavBG">
+                    <!--Head Menu Start-->
+                    @Html.Action("Nav", "Home")                    
+                    <!--Head Menu End-->
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!--nav end-->
+
+        </div>
+        <!--head end-->
+        <!--body start-->
+        <div id="body">
+            <!--focus start-->
+            @RenderSection("focus", true)
+            <!--foncus end-->
+
+            <div class="HeightTab clearfix"></div>
+
+            @RenderBody()
+        </div>
+        <!--body end-->
+
+        <div class="HeightTab clearfix"></div>
+
+        <!--footer start-->
+        <div id="footer">
+            <div class="inner">
+                <p>
+                    Copyright   2009-2013 <a href="#" target="_blank">FZYH</a> 技术支持 All rights reserved <br />
+                </p>
+            </div>
+        </div>
+        <!--footer end -->
+    </div>
+    <script type="text/javascript">
+        window.onerror = function () { return true; }
+    </script>
+</body>
+</html>
+<!--
+Powered By HuiguerCMS ASP V3.6
+-->

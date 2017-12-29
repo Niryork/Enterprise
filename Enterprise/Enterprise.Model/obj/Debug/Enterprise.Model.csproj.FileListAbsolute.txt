@@ -1,0 +1,17 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.pdb
+D:\NET\C#\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.dll
+D:\NET\C#\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Model\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.pdb
+D:\NET\C#\Enterprise\Enterprise.Model\obj\Debug\Enterprise.Model.csprojResolveAssemblyReference.cache

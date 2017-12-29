@@ -1,0 +1,16 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Web.dll.config
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Web.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Web.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\AspNetPager.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.BLL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\UserControl.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.BLL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\bin\Enterprise.DAL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\obj\Release\Enterprise.Web.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\obj\Release\Enterprise.Web.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Web\obj\Release\Enterprise.Web.pdb

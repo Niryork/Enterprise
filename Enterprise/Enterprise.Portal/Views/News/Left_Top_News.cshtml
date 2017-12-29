@@ -1,0 +1,24 @@
+﻿@using Enterprise.Model
+@model List<Category>
+
+<div class="topic">新闻动态&nbsp;&nbsp;&nbsp;News</div>
+
+<div class="blank">
+    <ul>
+
+        @if (Model != null)
+        {
+            foreach (Category item in Model)
+            {
+                <li><a href='@item.Url'>@item.Name</a></li>
+            }
+        }
+
+        @*<li><a href='/News/CompanyNews'>公司新闻</a></li>
+            <li><a href='/News/IndustryNews'>行业新闻</a></li>*@
+    </ul>
+</div>
+
+
+
+

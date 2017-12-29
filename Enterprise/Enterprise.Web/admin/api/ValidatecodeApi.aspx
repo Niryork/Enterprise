@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ValidatecodeApi.aspx.cs" Inherits="Enterprise.Web.admin.api.ValidatecodeApi" %>

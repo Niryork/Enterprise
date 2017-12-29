@@ -1,0 +1,36 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.pdb
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.csprojResolveAssemblyReference.cache
+D:\NET\C#\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.dll
+D:\NET\C#\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.DAL\obj\Debug\Enterprise.DAL.pdb

@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.Master.cs" Inherits="Enterprise.Web.admin.product" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> - 企业管理后台</title>
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/layer/layer.js"></script>
+    <script src="../js/JQajax.js"></script>
+    <script src="../js/getUrlParam.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="head border clearfix">
+                <h1 class="white fl">企业后台管理系统</h1>
+                <div class="fr">
+                    <asp:Button ID="btnlogout" runat="server" Text="注销" BackColor="#59A4CD" BorderColor="#59A4CD" BorderStyle="None" OnClick="btnlogout_Click" CssClass="logout white" Height="40px" Width="60px"/>
+                </div>
+            </div>
+            <div class="center mtop10 clearfix">
+                <div class="c-left border fl">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="siteMap"></asp:TreeView>
+                    <asp:SiteMapDataSource ID="siteMap" runat="server" />
+                </div>
+                <div class="c-right mleft10 border fl">
+                    <div class="sitemap">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                        </asp:SiteMapPath>
+                    </div>
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="content" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer mtop10 border tc">
+                <p>Copyright &copy F</p>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+</html>

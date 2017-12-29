@@ -1,0 +1,9 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.DAL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\bin\Release\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Release\Enterprise.DAL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Release\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.DAL\obj\Release\Enterprise.DAL.pdb

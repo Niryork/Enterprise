@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="系统管理"  description="" >
+    <siteMapNode url="admin/index.aspx" title="后台首页"  description="" />
+    <siteMapNode url="admin/productlist.aspx" title="产品管理"  description="" >
+      <siteMapNode url="admin/productedit.aspx" title="产品编辑"  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

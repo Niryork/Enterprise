@@ -1,0 +1,17 @@
+﻿@using Enterprise.Model
+@model Config
+<div class="topic">
+    <div class="TopicTitle">联系方式 Contact</div>
+    <div class="TopicMore"> <a href='@Model.ContactUrl'><img src="images/more.png"></a></div>
+</div>
+<div class="img"><img src="@Model.ContactImgUrl" width="250" height="100" alt="联系方式"></div>
+<div class="txt ColorLink">
+    <div style='padding-left:20px;'>
+        <p><strong>@Model.CompanyName</strong></p>
+        <p>地址：@Model.Address</p>
+        <p>邮编：@Model.Postcode</p>
+        <p>电话：@Model.Telephone</p>
+        <p>网址：<a href='@Model.Website' target='_blank'>@Model.Website</a></p>
+        <p>邮箱：<a href='mailto:@Model.Email'>@Model.Email</a></p>
+    </div>
+</div>

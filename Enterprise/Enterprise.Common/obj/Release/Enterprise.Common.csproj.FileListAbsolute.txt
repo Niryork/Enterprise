@@ -1,0 +1,5 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\bin\Release\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\bin\Release\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\obj\Release\Enterprise.Common.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\obj\Release\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\obj\Release\Enterprise.Common.pdb

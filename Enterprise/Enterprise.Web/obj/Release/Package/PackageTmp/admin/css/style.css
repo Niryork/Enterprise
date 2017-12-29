@@ -1,0 +1,66 @@
+﻿.container {
+    width: 1300px;
+    min-height: 500px;
+    margin: auto;
+}
+
+.head, .footer {
+    width: 1298px;
+}
+
+.center {
+    width: 100%;
+}
+
+.head, .footer {
+    min-height: 50px;
+}
+
+.center {
+    min-height: 500px;
+}
+
+.footer, .center {
+    margin-top: 10px;
+}
+
+.head {
+    background-color: #59a4cd;
+}
+
+    .head h1 {
+        margin: 10px;
+    }
+
+.center .c-left {
+    width: 200px;
+    min-height: 500px;
+}
+
+.center .c-right {
+    width: 1085px;
+    min-height: 500px;
+}
+
+.sitemap {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.content{
+    margin:10px;
+}
+
+
+.table {
+    width:600px;
+    border-collapse:collapse;
+}
+
+.table th,.table td{
+    border:1px solid;
+    text-align:center;
+}
+.w300{
+    width:300px;
+}

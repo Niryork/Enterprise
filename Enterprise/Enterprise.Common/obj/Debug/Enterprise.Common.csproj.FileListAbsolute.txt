@@ -1,0 +1,17 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.pdb
+D:\NET\C#\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.dll
+D:\NET\C#\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Common\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.pdb
+D:\NET\C#\Enterprise\Enterprise.Common\obj\Debug\Enterprise.Common.csprojResolveAssemblyReference.cache

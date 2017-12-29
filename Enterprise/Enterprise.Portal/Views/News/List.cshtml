@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "新闻列表";
+    Layout = "~/Views/Shared/ContentLayout.cshtml";
+}
+
+@using Enterprise.Model
+
+
+@section left_top{
+
+    @*新闻分类菜单*@
+    @Html.Action("Left_Top_News", "News")
+}
+
+@section left_center{
+
+    @*最新资讯*@
+    @Html.Action("Left_Center_New", "News")
+
+}
+
+
+<div class="ArticleList">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <ul>
+
+            @foreach (News item in ViewBag.NewsList)
+            {
+                <tr>
+                    <td width='90%' class='fw_t'>·<a href='/News/Detail/@item.NewsId' target='_blank'>@item.Title</a></td>
+                    <td width='10%' class='fw_s'>@item.UpdateDate.ToString("[yyyy-MM-dd]")</td>
+                </tr>
+            }
+
+
+        </ul>
+        <tr>
+            <td colspan="3" height="10"></td>
+        </tr>
+    </table>
+
+    <div class="clearfix"></div>
+
+    @Html.Raw(ViewBag.PageBar)
+
+    @*<div class="t_page ColorLink">
+            总数：23条&nbsp;&nbsp;当前页数：<span class="FontRed">1</span>/2
+            <a href="index.html">首页</a>&nbsp;&nbsp;
+            上一页&nbsp;&nbsp;
+            <a href="index.html">1</a>
+            <a href="list_2.html">2</a>
+            <a href="list_2.html">下一页</a>
+            <a href="list_2.html">尾页</a>
+        </div>*@
+
+</div>

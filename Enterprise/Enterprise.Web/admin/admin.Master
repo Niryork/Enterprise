@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.Master.cs" Inherits="Enterprise.Web.admin.product" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><%=mtitle %>- 企业管理后台</title>
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/layer/layer.js"></script>
+    <script src="../js/JQajax.js"></script>
+    <script src="../js/getUrlParam.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="head border clearfix ">
+                <h1 class="white fl">企业后台管理系统</h1>
+                <div class="fr white mtop10">
+                    <span style="height: 20px; line-height: 20px;">你好，<asp:Label ID="lblname" runat="server" Text="Label"></asp:Label>&nbsp;&nbsp;
+                    <asp:Button ID="btnlogout" runat="server" Text="注销" BackColor="#59A4CD" BorderColor="#59A4CD" BorderStyle="None" OnClick="btnlogout_Click" CssClass="logout white" />
+                    </span>
+                </div>
+            </div>
+            <div class="center mtop10 clearfix">
+                <div class="c-left border fl">
+                    <div>
+                        <h2 class="blue title pleft10">系统管理</h2>
+                        <ul class="pleft20">
+                            <li><a href="UserList.aspx">用户管理</a></li>
+                            <li class="mtop10"><a href="config.aspx">站点配置</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="blue title pleft10">网站管理</h2>
+                        <ul class="pleft20">
+                            <li><a href="categorylist.aspx">栏目管理</a></li>
+                            <li class="mtop10"><a href="newslist.aspx">新闻管理</a></li>
+                            <li class="mtop10"><a href="productlist.aspx">产品管理</a></li>
+                            <li class="mtop10"><a>留言管理</a></li>
+                            <li class="mtop10"><a>Banner管理</a></li>
+                            <li class="mtop10"><a>友情链接管理</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="c-right mleft10 border fl">
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="content" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer mtop10 border">
+                <div style="text-align:center">Copyright &copy; F</div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

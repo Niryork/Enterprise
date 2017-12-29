@@ -1,0 +1,13 @@
+﻿@using Enterprise.Model
+@model Config
+<div class="topic">
+    <div class="TopicTitle">关于公司 About</div>
+    <div class="TopicMore"> <a href='@Model.AboutUrl'><img src="images/more.png"></a></div>
+</div>
+<div class="img"><img src='@Model.AboutImgUrl' width="220" height="100" alt="关于公司"></div>
+<div class="txt ColorLink">
+    <p style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5;  overflow: hidden;">
+        @Model.AboutIntro
+    </p>
+    <a href="@Model.AboutUrl">详细&gt;&gt;</a>
+</div>

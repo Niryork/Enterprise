@@ -1,0 +1,11 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.BLL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.BLL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.DAL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Release\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Release\Enterprise.BLL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Release\Enterprise.BLL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Release\Enterprise.BLL.pdb

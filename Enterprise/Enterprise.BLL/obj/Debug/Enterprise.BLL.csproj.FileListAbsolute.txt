@@ -1,0 +1,44 @@
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP-NET-Project\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.pdb
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.dll
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.pdb
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.csprojResolveAssemblyReference.cache
+D:\NET\C#\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.dll
+D:\NET\C#\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP.NET Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.BLL.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Common.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.DAL.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\bin\Debug\Enterprise.Model.pdb
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.csprojResolveAssemblyReference.cache
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.dll
+D:\NET\C#\ASP.NET_Proj\Enterprise\Enterprise.BLL\obj\Debug\Enterprise.BLL.pdb
